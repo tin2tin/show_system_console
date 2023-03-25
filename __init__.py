@@ -43,6 +43,7 @@ def set_system_console_topmost(top):
 
 
 class SystemConsoleToggleOperator(bpy.types.Operator):
+    """Show the system console"""
     bl_idname = "text.toggle"
     bl_label = "Toggle System Console"
 
